@@ -1,0 +1,209 @@
+body{
+    background-color: #12161d;
+    font-family: 'Bacasime Antique', serif;
+    color:  gray;
+    font-size: large;
+
+}
+
+img{
+    width: 50%;
+    border-radius: 20px;
+}
+
+/*para llamar la class que se puso en html se usa "." y el nombre de la clase, en este caso "moon"*/
+.moon{
+    width: 60%;
+}
+
+.navbar {
+    padding: 1rem;
+  }
+  
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;  
+  }
+
+#navbar-style a{
+    color: #ffffff;
+}
+
+.title-astroweb{
+    color: #ffffff;
+    margin: 10px;
+    margin-top: 30px;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 10px;
+    background-image: url(https://www.nationalgeographic.com.es/medio/2022/12/21/el-primer-campo-profundo-del-telescopio-espacial-james-webb_ebc2bf30_221221161954_2000x2041.jpg);
+}
+
+.title-estrellas_masivas{
+    width: 100%;
+    height: 80px;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(https://www.meteorologiaenred.com/wp-content/uploads/2023/03/colores-de-estrellas.jpg);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 2%;
+}
+
+.title-misiones_espaciales{
+    width: 100%;
+    height: 80px;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(https://www.meteorologiaenred.com/wp-content/uploads/2023/03/colores-de-estrellas.jpg);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 2%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card{
+    margin: 10px;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.apartado-astrofisica{
+    width: 100%;
+    height: 80px;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(https://www.meteorologiaenred.com/wp-content/uploads/2023/03/colores-de-estrellas.jpg);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 2%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.apartado-teorias{
+    width: 100%;
+    height: 80px;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(https://www.meteorologiaenred.com/wp-content/uploads/2023/03/colores-de-estrellas.jpg);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 2%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.apartado-estrellas{
+    width: 100%;
+    height: 80px;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(https://www.meteorologiaenred.com/wp-content/uploads/2023/03/colores-de-estrellas.jpg);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 2%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.formulario-edad_del_universo{
+    color: #5B827F;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.formulario-button{
+    background-image: url(https://www.nationalgeographic.com.es/medio/2022/12/21/el-primer-campo-profundo-del-telescopio-espacial-james-webb_ebc2bf30_221221161954_2000x2041.jpg);
+    color: rgb(249, 251, 250);
+}
+
+.formulario-misiones{
+    color: #5B827F;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.formulario-objetos_celestes{
+    color: #5B827F;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+form{
+    padding: 20px;
+}
+
+.texto-justificado {
+    text-align: justify;
+    padding: 20px;
+}
+
+.contenedor-imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.preguntas-consulta{
+    width: 100%;
+    height: 80px;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(https://www.meteorologiaenred.com/wp-content/uploads/2023/03/colores-de-estrellas.jpg);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 2%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.preguntas-consulta-links{
+    padding: 20px;
+}
+
+.preguntas-consulta-links a{
+    text-decoration: none;
+    color: #5B827F;
+}
+
+.preguntas-consulta-links a:hover{
+    text-decoration: underline;
+    color: rgb(51, 6, 85);
+}
+
+.title-paginas-interactivas{
+    width: 100%;
+    height: 80px;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(https://www.meteorologiaenred.com/wp-content/uploads/2023/03/colores-de-estrellas.jpg);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 2%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.paginas-interactivas a{
+    text-decoration: none;
+    color: gray;
+}
+
+.paginas-interactivas a:hover{
+    text-decoration: underline;
+    color: rgb(85, 55, 108);
+}
+
+body main hr{
+    color: #ffffff;
+}
+
+.titulo-forms{
+    color: beige;
+}

@@ -1,0 +1,334 @@
+<!-- DOCTYPE - Declaración de un archivo tipo HTML -->
+<!DOCTYPE html>
+<!-- lang - Lenguaje del sitio -->
+<html lang="es">
+<!-- HEAD (cabeza) metadata - info para el navegador -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astroweb</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- link - conectar cosas con mi html-->
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap" rel="stylesheet">
+</head>
+ <!-- BODY - Lo que ve el usuarix -->
+<body>
+    <!-- Main - contenido principal -->
+    <main>
+        <div class="subtemas">
+            <!-- a - Anclas -->
+            <nav class="navbar navbar-expand-md" style="background-color: #194768;" id="navbar-style">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                  </a></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="color: aliceblue;">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#estrellas">Estrellas y misiones espaciales</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#astrofisica">Astrofísica</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#teoria-del-todo">Teorias de la creación</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Formación de las estrellas
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#formacion-estrellas">Formación de las estrellas</a></li>
+                          <li><a class="dropdown-item" href="#forms">Cuestionario</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#preguntas">Preguntas de consulta</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#pag-interactiva">Páginas interactivas</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            <h1 class="title-astroweb">Astroweb</h1>
+        </div>
+        <br>
+        <div class="contenedor-imagen">
+        <!-- Imagen a través de la web -->
+        <img src="https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/hubble_eso174-1_potw2326a.jpg" alt="Una galaxia muy irregular, imagen de NASA/ESA Hubble Space Telescope">
+        </div>
+        <br>
+        <!-- imagen a traves de la compu -->
+        <!-- class - -llamar el elemento algun nombre para editarlo especificamente en css-->
+        <div class="contenedor-imagen">
+        <img class="moon" src="/images/imagen del día.jpeg" alt="Imagen del día. El satelite natural de nuestro planeta, La Luna; Vista en el crepúsculo desde la estación de cohetes de la NASA">
+        </div>
+        <hr>
+        <!-- div - Crear divisiones o agrupaciones -->
+            <!-- Listas -->
+            <h3 class="title-estrellas_masivas" id="estrellas">Top de estrellas masivas</h3>
+            <!-- ol - listas ordenadas -->
+            <div id="carouselExampleCaptions" class="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="https://pbs.twimg.com/media/Dhx_9QDW4AEzU7Z.jpg:large" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>RMC 136a1</h5>
+                        <p>Es una estrella hipergigante azul ultramasiva, con una masa solar estimada en 265 veces. Con una luminosidad de aproximadamente 6.200.000 veces la de nuestro Sol.</p>
+                      </div>
+                    </div>
+                  <div class="carousel-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/UY_Scuti_size_comparison_to_the_sun.png/640px-UY_Scuti_size_comparison_to_the_sun.png" class="d-block w-50" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>UY Scuti</h5>
+                      <p>Es una estrella hipergigante roja de la constelación del Escudo. Tiene un radio equivalente a 1708 ± 192 radios solares.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://www.universetoday.com/wp-content/uploads/2008/04/vycanis-1280x720.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>VY Canis Majoris</h5>
+                      <p>Es una enorme y luminosa hipergigante roja, de la que inicialmente se supuso que tenía un radio de entre 1.800 y 2.200 radios solares.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <br>
+        <h3 class="title-misiones_espaciales">Top misiones espaciales</h3>
+        <!-- columns - columnas y row - filas -->
+        <section class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://airandspace.si.edu/sites/default/files/images/callouts/5390_640.jpg
+                    " class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Apollo 8</h5>
+                            <p class="card-text">Segunda misión tripulada del programa espacial estadounidense Apolo. La misión se lanzó el 21 de diciembre de 1968 y fue la primera misión tripulada que salió de la órbita terrestre, alcanzó y orbitó la Luna y finalmente regresó a la Tierra.</p>
+                            <a href="https://www.nasa.gov/mission_pages/apollo/apollo-8.html" class="btn btn-primary">Descubre más</a>
+                        </div>
+                </div>
+            </div>
+            <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Gemini_6_7.jpg/300px-Gemini_6_7.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Géminis</h5>
+                            <p class="card-text">Las misiones Gemini ayudaron a los astronautas a aprender a trabajar y vivir fuera de la nave en el espacio.</p>
+                            <a href="https://www.nasa.gov/specials/gemini_gallery/" class="btn btn-primary">Descubre más</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://img.europapress.es/fotoweb/fotonoticia_20190102121927_1200.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Luna 1</h5>
+                            <p class="card-text">Fue el primer objeto realizado por humanos en alcanzar la velocidad de escape de la Tierra. También fue la primera nave espacial en salir de la gravedad terrestre y llegar más allá de la Luna.</p>
+                            <a href="https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1959-012A" class="btn btn-primary">Descubre más</a>
+                        </div>
+                </div>
+            </div>
+        </section>
+            <!-- ul - listas no ordenadas -->
+        <!-- hr - división horisontal -->
+        <hr>
+        <!-- indice con anclas -->
+        </a>
+        </div>
+
+        <!-- id - busca la referencia para reubicarte al pucarle a una redirección-->
+        <h3 class="apartado-astrofisica" id="astrofisica"> Astrofísica </h3>
+        <!-- p - párrafo -->
+        <p class="texto-justificado">
+            ¿Qué es la energía oscura?
+Según NASA Science, se desconoce más de lo que se conoce. Sabemos cuánta energía oscura hay porque conocemos cómo afecta a la expansión del universo. Aparte de eso, es un completo misterio. Pero es un misterio importante. Resulta que aproximadamente el 68% del universo es energía oscura. La materia oscura representa alrededor del 27%. El resto, todo lo que está en la Tierra, todo lo que se ha observado alguna vez con todos nuestros instrumentos, toda la materia normal, suma menos del 5% del universo. Pensándolo bien, tal vez no debería llamarse "materia normal" en absoluto, ya que es una fracción tan pequeña del universo.
+<!-- br - -break o enter-->
+<br>
+Una explicación para la energía oscura es que es una propiedad del espacio. Albert Einstein fue la primera persona en darse cuenta de que el espacio vacío no es nada. El espacio tiene propiedades asombrosas, muchas de las cuales apenas comienzan a ser comprendidas. La primera propiedad que descubrió Einstein es que es posible que aparezca más espacio. Luego, una versión de la teoría de la gravedad de Einstein, la versión que contiene una constante cosmológica, hace una segunda predicción: el "espacio vacío" puede tener su propia energía. Debido a que esta energía es una propiedad del espacio mismo, no se diluiría a medida que el espacio se expande. A medida que más espacio aparece, más de esta energía del espacio aparecería. Como resultado, esta forma de energía causaría que el universo se expanda más rápido y más rápido. Desafortunadamente, nadie entiende por qué la constante cosmológica debería estar allí, y mucho menos por qué tendría exactamente el valor adecuado para causar la aceleración observada del universo (NASA SCIENCE, 2022)
+        </p>
+
+        <h3 class="apartado-teorias" id="teoria-del-todo">Teorías de la creación</h3>
+        <p class="texto-justificado">
+            ¿Qué había antes del Big Bang?
+De acuerdo con National Geographic, antes del Big Bang, según los científicos, la inmensidad del universo observable, incluida toda su materia y radiación, estaba comprimida en una masa densa y caliente a tan solo unos pocos milímetros de distancia. Este estado casi incomprensible se especula que existió tan sólo una fracción del primer segundo de tiempo.
+<br>
+(Relacionado: La amabilidad de un desconocido durante la Segunda Guerra Mundial ayudó a darnos la teoría del Big Bang)
+<br>
+Los defensores del Big Bang sugieren que hace unos 10 000 o 20 000 millones de años, una onda expansiva masiva permitió que toda la energía y materia conocidas del universo (incluso el espacio y el tiempo) surgieran a partir de algún tipo de energía desconocido.
+<br>
+La teoría mantiene que, en un instante (una trillonésima parte de un segundo) tras el Big Bang, el universo se expandió con una velocidad incomprensible desde su origen del tamaño de un guijarro a un alcance astronómico. La expansión aparentemente ha continuado, pero mucho más despacio, durante los siguientes miles de millones de años.
+<br>
+Los científicos no pueden saber con exactitud el modo en que el universo evolucionó tras el Big Bang. Muchos creen que, a medida que transcurría el tiempo y la materia se enfriaba, comenzaron a formarse tipos de átomos más diversos, y que estos finalmente se condensaron en las estrellas y galaxias de nuestro universo presente (National Geographic, 2010).
+        </p>
+        <h3 class="apartado-estrellas" id="formacion-estrellas">Formación de las estrellas</h3>
+        <p class="texto-justificado">
+            De acuerdo con ALMA, la formación de estrellas es el mecanismo que controla la estructura y evolución de galaxias y la acumulación de elementos pesados en el Universo, además de ser responsable de la creación de los ambientes planetarios donde la vida es posible.
+<br>
+Las estrellas brillan por miles de millones de años, pero su formación -que toma solo algunos millones de años- permanece literalmente en el misterio: los telescopios ópticos no pueden observar dentro de las polvorientas concentraciones de gas en las que nacen las estrellas. Por otro lado, los telescopios infrarrojos, que sí pueden revelarnos las estrellas recién nacidas antes de que emerjan completamente de sus polvorientos capullos, no son capaces de observar el proceso de desarrollo de preignición de las estrellas.
+<br>
+Sabemos que estas inmensas nubes colapsan bajo la fuerza de gravedad para formar estrellas. Debido a un proceso de fusión nuclear, estas estrellas primerizas convirtieron con gran eficacia el hidrógeno y helio en otros elementos como el carbono, oxígeno, silicio o hierro. Al término de su corta vida, las primeras estrellas expulsaron estos elementos al espacio, donde dieron forma a diminutos granos de polvo. Este polvo producido en los inicios del Universo y presente en las galaxias más lejanas y antiguas, puede detectarse con ALMA gracias a su longitud de onda submilimétrica; proporcionándonos información sobre los procesos de formación de estas primeras estrellas y galaxias.
+<br>
+Además, sabemos que esta formación de estrellas implica el colapso gravitacional, pero los movimientos de caída que forman una nueva estrella todavía tienen que ser descubiertos. Para observar esta evidencia inequívoca de colapso, se requieren resolución espacial y resolución en velocidades altas para mapear el campo de velocidad a través de estructuras pequeñas, y se requiere también de alta sensibilidad para aprovechar la resolución espacial y  en velocidad. Adicional a esto, la observación debe estar disponible en una longitud de onda en la cual el objeto colapsante emita, y en la cual la materia circundante sea transparente. De los instrumentos actuales, sólo ALMA tiene las características requeridas para ayudar a desentrañar estos misterios observando en profundidad las nubes de formación de estrellas, detectando la suave luz emitida por la materia que recién comienza a calentarse e incluso mapeando el movimiento de esa materia.
+<br>
+De acuerdo a nuestro actual conocimiento, los planetas se forman alrededor de una nueva estrella al condensarse en un disco de gas molecular y polvo incrustado dentro de una nube molecular más grande. Las condensaciones aumentan hasta convertirse en planetas gigantes, que se calientan, limpian sus órbitas en el disco y posiblemente lo encorvan. El gas que permanece en el disco finalmente desaparece, dejando planetas y un disco de polvo y deshechos (ALMA, 2023).
+        </p>
+
+        <!-- formularios - form - se enviará información -->
+        <form class="form-general" id="forms">
+            <h3 class="titulo-forms">Formulario</h3>
+            <p class="formulario-edad_del_universo">¿Cuál es la edad del universo?</p>
+            <!-- label - aciosa las respuestas o le pone una etiqueta a tu respuesta-->
+            <label for="edad-universo">
+                <input type="text">
+                <!-- button - crea un botón -->
+                <button class="formulario-button">Enviar</button>
+            </label>
+
+            <p class="formulario-misiones">¿Cuántas misiones Apolo existieron?</p>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  3 misiones
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  10 misiones
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  5 minsiones
+                </label>
+              </div>
+            <!-- label - etiqueta para identificar cada respuesta-->
+                <!-- input - insetar data 
+                atributo name: relaciona que las respuestas pertenecen a la misma pregunta-->
+                <!-- radio es para solo poder seleccionar una respuesta y checkbox para muchas-->
+            <p class="formulario-objetos_celestes">¿Que objetos celestes existen?</p>
+                <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="galaxias" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Galaxias
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="plantas" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Plantas
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="planetas" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Planetas
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="nebulosas" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Nebulosas
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="estrellas" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Estrellas
+                </label>
+              </div>
+        </form>
+        <h3 class="preguntas-consulta" id="preguntas">Preguntas de consulta</h3>
+        <div class="preguntas-consulta-links">
+        <p>
+            ¿De qué está compuesto el Sol? 
+            <button type="button" class="btn btn-outline-secondary">
+                <a href="http://www.ideam.gov.co/web/tiempo-y-clima/generalidades-del-sol#:~:text=Es%20la%20principal%20fuente%20primaria,pesados%20(Ver%20tabla%201).">¡Click aquí!</a>
+            </button>
+        </p>
+        <p>¿Qué es el Big Bang?
+            <button type="button" class="btn btn-outline-secondary">
+                <a href="https://spaceplace.nasa.gov/big-bang/sp/">¡Click aquí!</a>
+            </button>
+        </p>
+        <p>¿Cuál es el futuro del universo?
+            <button type="button" class="btn btn-outline-secondary">
+                <a href="https://unamglobal.unam.mx/global_revista/el-futuro-del-universo-segun-la-astronoma-julieta-fierro/#:~:text=Dentro%20de%20500%20millones%20de,los%20hoyos%20negros%20se%20evaporar%C3%A1n.">¡Click aquí!</a>
+            </button>
+        </p>
+        <p>
+            ¿Cuál es el tamaño del universo?
+            <button type="button" class="btn btn-outline-secondary">
+                <a href="https://www.bbc.com/mundo/noticias-56592049#:~:text=Comencemos%20diciendo%20que%20el%20universo,54%20seguido%20de%2022%20ceros).">¡Click aquí!</a>
+            </button>
+        </p>
+        <p>
+            ¿Qué tipos de galaxias existen?
+            <button type="button" class="btn btn-outline-secondary">
+                <a href="https://spaceplace.nasa.gov/galactic-explorer/sp/">¡Click aquí!</a>
+            </button>
+        </p>
+        <p>
+            ¿De qué habla la teoría de cuerdas?
+            <button type="button" class="btn btn-outline-secondary">
+                <a href="https://www.nucleares.unam.mx/~alberto/physics/cuerdas.html#:~:text=La%20idea%20esencial%20detr%C3%A1s%20de,un%20objeto%20b%C3%A1sico%3A%20una%20cuerda.">¡Click aquí!</a>
+            </button>
+        </p>
+        <p>
+            ¿Cuál es la velocidad de la luz?
+            <button type="button" class="btn btn-outline-secondary">
+            <a href="https://www.endesa.com/es/blog/blog-de-endesa/luz/cuanto-es-velocidad-luz#:~:text=En%201983%2C%20la%20Conferencia%20General,viaja%20a%20su%20m%C3%A1xima%20velocidad.">¡Click aquí!</a>
+            </button>
+        </p>
+        <p>
+            ¿Cómo identificas una estrella de un planeta en el cielo nocturno?
+            <button type="button" class="btn btn-outline-secondary">
+                <a href="https://planetariodevitoria.org/es/estrelas/resposta-rapida-como-diferenciar-os-planetas-e-as-estrelas-no-ceu.html">¡Click aquí!</a>
+            </button>
+        </p>
+        </div>
+        <h3 class="title-paginas-interactivas" id="pag-interactiva">¡Algunas páginas interactivas para consultar!</h3>
+        <div class="paginas-interactivas">
+            <ul>
+                <li>
+                    <a href="https://hubblesite.org/">Una increible página de la NASA que muesta las mejores imagenes y videos tomados por el telescopio hubble</a>
+                </li>
+                <li>
+                    <a href="https://exoplanets.nasa.gov/alien-worlds/exoplanet-travel-bureau/">Esta página te da un viaje por distintos planetas por medio de una recreación artística</a>
+                </li>
+                <li>
+                    <a href="https://spacedashboard.com/">Un sitio web que da accseso a conocer todas las actuales relacionadas con el espacio</a>
+                </li>
+                <li>
+                    <a href="https://www.supercluster.com/astronauts?ascending=false&life%20form=human&limit=18&sort=">Esta pagina muestra los perfiles de bases de datos sobre todos los astronautas</a>
+                </li>
+                <li>
+                    <a href="https://james.darpinian.com/satellites/"> Un gran sitio que muestra el rastreo de satélites cerca de la tierra</a>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>  
+</body>
+</html>
